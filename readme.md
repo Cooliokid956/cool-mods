@@ -9,9 +9,8 @@ TO-DO: add individual mod overviews
 - [OMM but silly](https://github.com/Mistyre9309/test-mod)
 
 # Releases
-## [Color Combiner](colorcombiner.lua) ([Old](lightingpermod.lua))
+## [Color Combiner](colorcombiner.lua) ([site](https://mods.sm64coopdx.com/mods/color-combiner.141/)|[Old](lightingpermod.lua))
 Allows multiple lighting mods to be used simultaneously<br>
-https://mods.sm64coopdx.com/mods/color-combiner.141/<br>
 (You may need to remove incompatibility tags first)
 
 ## [Old ex-coop Logo](ex-coop-theme)
