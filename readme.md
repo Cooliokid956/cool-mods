@@ -11,9 +11,8 @@ TO-DO: add individual mod overviews
 # Releases
 ## [Color Combiner](colorcombiner.lua) ([Old](lightingpermod.lua))
 Allows multiple lighting mods to be used simultaneously<br>
-https://mods.sm64coopdx.com/mods/color-combiner.141/
+https://mods.sm64coopdx.com/mods/color-combiner.141/<br>
 (You may need to remove incompatibility tags first)
-- 
 
 ## [Old ex-coop Logo](ex-coop-theme)
 Prints a guide to the chat detailing the process to activate the ex-coop theme easter egg 
@@ -40,6 +39,7 @@ A standalone version of the cap system from OMM but silly
 ## Input Display Update UPDATE
 Input Display for your controller inputs
 ---
+
 # WIP mods with substance
 ## [Clones](clones.lua)
 A demo of a clone system, pioneered by djoslin0
@@ -56,12 +56,32 @@ Drift into the void
 ## [POV: Super Mario](marioirl.lua)
 A first person mod
 
-## others [list wip]
+## [Uno](uno.lua)
+Currently a deck generator and display, gameplay will come later
+
+## [Wowozela](wowozela)
+An attempt at replicating its namesake from Garry's Mod
+
+## [Ninja Roy Moveset](jumpking.lua)
+A moveset based on the titular character from [Ninja Roy 7](https://scratch.mit.edu/projects/305344224), a sequel based on Jump King
+
+## [Wario Fucking Dies](wariodies.lua)
+An event sequence system disguised as a meme
+
+## [Death Stare](deathstare.lua)
+Look at things to kill them
+
+## [Cursors EX](cursorsEX.lua) ([old](cursors.lua))
+Display all players' cursors on screen
 
 ## [3D World Player Grab](3dwgrab)
 An alternative take on a player grab mod, this time based on Super Mario 3D World's player grab, while allowing players to stack
 
-## 
+## [Bound.lua](Bound.lua)
+Invisible walls are marked by sparklies
+
+## [wip]
+
 
 # Overview (as of 01/20/2026  10:48 PM)
 ```sh
