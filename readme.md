@@ -4,40 +4,64 @@ These are my mods, most of which are test scripts. Feel free to look around!
 TO-DO: add individual mod overviews
 ---
 
-# Releases
-## [Color Combiner](https://mods.sm64coopdx.com/mods/color-combiner.141/)
-Allows multiple lighting mods to be used simultaneously<br>
-(You may need to remove incompatibility tags first)
-- v2 (colorcombiner.lua)
-- v1 (lightingpermod.lua)
+## Other mod repos
+- [Tauntwheel](https://github.com/Cooliokid956/tauntwheel)
+- [OMM but silly](https://github.com/Mistyre9309/test-mod)
 
-## Old ex-coop Logo (ex-coop-theme)
+# Releases
+## [Color Combiner](colorcombiner.lua) ([Old](lightingpermod.lua))
+Allows multiple lighting mods to be used simultaneously<br>
+https://mods.sm64coopdx.com/mods/color-combiner.141/
+(You may need to remove incompatibility tags first)
+- 
+
+## [Old ex-coop Logo](ex-coop-theme)
 Prints a guide to the chat detailing the process to activate the ex-coop theme easter egg 
 
-## Click the Star (clickthestar.lua)
+## [Click the Star](clickthestar.lua)
 Click on stars to collect them
 
-## Carl's Jr. Chicken Stars
-DynOS pack for stars, [download](https://discord.com/channels/752682015614173235/755907254318006362/1266767532468076705)
+## [Carl's Jr. Chicken Stars](https://discord.com/channels/752682015614173235/755907254318006362/1266767532468076705)
+DynOS pack for stars
 
-## Control Stick Modifier
+## [Control Stick Modifier](cst.lua) ([Old](marki.lua))
 Modifier for control stick
-- v2 (cst.lua)
-- v1 (marki.lua)
 
-## Forwards Long Jump (flj.lua)
+## [Forwards Long Jump](flj.lua)
 Walk into a slope and mash the A button while holding down the Z trigger<br>
 You may toggle the forwards long jump by typing /flj in the chat box
 
-## Custom Ground Pound (Afunnigp.lua)
+## [Custom Ground Pound](Afunnigp.lua)
 Check it out!!
 
-## Cap Throw (Cap-Throw.lua)
-A standalone version of the cap system from OMM but Silly
+## [Cap Throw](Cap-Throw.lua)
+A standalone version of the cap system from OMM but silly
 
 ## Input Display Update UPDATE
 Input Display for your controller inputs
 ---
+# WIP mods with substance
+## [Clones](clones.lua)
+A demo of a clone system, pioneered by djoslin0
+
+## [Crumpler](crumpler.lua)
+Do unspeakable things to your player model
+
+## [Spyglass](spyglass.lua)
+Double-tap C-Up to look through your spyglass!
+
+## [OOB Shenaniganry](oobs)
+Drift into the void
+
+## [POV: Super Mario](marioirl.lua)
+A first person mod
+
+## others [list wip]
+
+## [3D World Player Grab](3dwgrab)
+An alternative take on a player grab mod, this time based on Super Mario 3D World's player grab, while allowing players to stack
+
+## 
 
 # Overview (as of 01/20/2026  10:48 PM)
 ```sh
