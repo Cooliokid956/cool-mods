@@ -1,0 +1,12 @@
+extern const GeoLayout ball_geo[];
+extern Lights1 ball_f3dlite_material_lights;
+extern Vtx ball_Cube_mesh_layer_1_vtx_0[266];
+extern Gfx ball_Cube_mesh_layer_1_tri_0[];
+extern Vtx ball_Cube_mesh_layer_0_vtx_0[106];
+extern Gfx ball_Cube_mesh_layer_0_tri_0[];
+extern Gfx mat_ball_f3dlite_material[];
+extern Gfx mat_ball_f3dlite_material_001[];
+extern Gfx mat_revert_ball_f3dlite_material_001[];
+extern Gfx ball_Cube_mesh_layer_1[];
+extern Gfx ball_Cube_mesh_layer_0[];
+extern Gfx ball_material_revert_render_settings[];

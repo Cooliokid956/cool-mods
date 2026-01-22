@@ -1,0 +1,1 @@
+hook_event(HOOK_ON_HUD_RENDER, function() hud_hide() end)

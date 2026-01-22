@@ -1,0 +1,10 @@
+extern const GeoLayout effect_geo[];
+extern Vtx effect_Cube_mesh_layer_5_vtx_0[4];
+extern Gfx effect_Cube_mesh_layer_5_tri_0[];
+extern Vtx effect_Cube_mesh_layer_5_vtx_1[12];
+extern Gfx effect_Cube_mesh_layer_5_tri_1[];
+extern Gfx mat_effect_white[];
+extern Gfx mat_revert_effect_white[];
+extern Gfx mat_effect_black[];
+extern Gfx mat_revert_effect_black[];
+extern Gfx effect_Cube_mesh_layer_5[];

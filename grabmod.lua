@@ -1,0 +1,1 @@
+audio_stream_load_url("http://sm64ts.cf/sound/boing.mp3")

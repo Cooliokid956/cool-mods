@@ -1,0 +1,3 @@
+-- hook_event(HOOK_ON_PLAY_SOUND, function (sound, pos)
+--     return sound | SOUND_VIBRATO
+-- end)

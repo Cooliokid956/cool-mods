@@ -1,0 +1,2 @@
+-- name: Super Kaizo Drownio Road (0 Star Edition)
+-- incompatible: romhack

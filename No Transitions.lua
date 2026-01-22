@@ -1,0 +1,1 @@
+hook_event(HOOK_ON_SCREEN_TRANSITION, function () return false end)

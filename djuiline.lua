@@ -1,0 +1,11 @@
+function djui_hud_render_line(x1,y1,x2,y2,thickness)
+    local angle = atan2s(x2-x1,y1-y2)
+    local length = math.sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1))
+    djui_hud_set_rotation(angle, 0, .5)
+    djui_hud_render_rect(x1,y1-thickness/2,length,thickness)
+    djui_hud_set_rotation(0,0,0)
+end
+hook_event(HOOK_ON_HUD_RENDER,function ()
+    djui_hud_set_resolution(RESOLUTION_DJUI)
+    djui_hud_render_line(0,0,djui_hud_get_mouse_x(),djui_hud_get_mouse_y(),10)
+end)
