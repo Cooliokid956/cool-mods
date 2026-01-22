@@ -4,11 +4,39 @@ These are my mods, most of which are test scripts. Feel free to look around!
 TO-DO: add individual mod overviews
 ---
 
-# Mods
-## Color Combiner
+# Releases
+## [Color Combiner](https://mods.sm64coopdx.com/mods/color-combiner.141/)
+Allows multiple lighting mods to be used simultaneously<br>
+(You may need to remove incompatibility tags first)
 - v2 (colorcombiner.lua)
 - v1 (lightingpermod.lua)
 
+## Old ex-coop Logo (ex-coop-theme)
+Prints a guide to the chat detailing the process to activate the ex-coop theme easter egg 
+
+## Click the Star (clickthestar.lua)
+Click on stars to collect them
+
+## Carl's Jr. Chicken Stars
+DynOS pack for stars, [download](https://discord.com/channels/752682015614173235/755907254318006362/1266767532468076705)
+
+## Control Stick Modifier
+Modifier for control stick
+- v2 (cst.lua)
+- v1 (marki.lua)
+
+## Forwards Long Jump (flj.lua)
+Walk into a slope and mash the A button while holding down the Z trigger<br>
+You may toggle the forwards long jump by typing /flj in the chat box
+
+## Custom Ground Pound (Afunnigp.lua)
+Check it out!!
+
+## Cap Throw (Cap-Throw.lua)
+A standalone version of the cap system from OMM but Silly
+
+## Input Display Update UPDATE
+Input Display for your controller inputs
 ---
 
 # Overview (as of 01/20/2026  10:48 PM)
@@ -117,7 +145,7 @@ TO-DO: add individual mod overviews
 12/06/2024  10:02 PM         ommbljfix.lua
 12/06/2024  10:02 PM         boom.lua
 12/18/2024  05:53 PM         vibrato.lua
-12/18/2024  06:35 PM         deathstare.lua [RELEASED!]
+12/18/2024  06:35 PM         deathstare.lua
 12/20/2024  11:24 PM         coindrop.lua
 12/23/2024  02:39 PM         !matrix.lua
 01/19/2025  06:28 PM  <DIR>  ex-coop-theme [RELEASED!]

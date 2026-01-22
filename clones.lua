@@ -84,7 +84,6 @@ hook_event(HOOK_ON_OBJECT_RENDER, function (obj)
             head = duplicate_vec3(body.headAngle),
             head2 = duplicate_vec3(m.statusForCamera.headRotation),
         }
-        djui_chat_message_create(""..body.eyeState)
     end
 
     local c = get_clone_cache(obj)
