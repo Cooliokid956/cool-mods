@@ -1,4 +1,4 @@
--- name: A Button Challenge: Lag Edition 
+-- name: A Button Challenge: Lag Edition
 local num = 0
 local lpa = 1000
 

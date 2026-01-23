@@ -9,78 +9,45 @@ TO-DO: add individual mod overviews
 - [OMM but silly](https://github.com/Mistyre9309/test-mod)
 
 # Releases
-## [Color Combiner](colorcombiner.lua) ([site](https://mods.sm64coopdx.com/mods/color-combiner.141/)|[Old](lightingpermod.lua))
+- [Color Combiner](colorcombiner.lua) ([site](https://mods.sm64coopdx.com/mods/color-combiner.141/)|[Old](lightingpermod.lua))<br>
 Allows multiple lighting mods to be used simultaneously<br>
 (You may need to remove incompatibility tags first)
-
-## [Old ex-coop Logo](ex-coop-theme)
-Prints a guide to the chat detailing the process to activate the ex-coop theme easter egg 
-
-## [Click the Star](clickthestar.lua)
-Click on stars to collect them
-
-## [Carl's Jr. Chicken Stars](https://discord.com/channels/752682015614173235/755907254318006362/1266767532468076705)
-DynOS pack for stars
-
-## [Control Stick Modifier](cst.lua) ([Old](marki.lua))
-Modifier for control stick
-
-## [Forwards Long Jump](flj.lua)
+- [Old ex-coop Logo](ex-coop-theme) - Prints a guide to the chat detailing the process to activate the ex-coop theme easter egg 
+- [Click the Star](clickthestar.lua) - Click on stars to collect them
+- [Carl's Jr. Chicken Stars](https://discord.com/channels/752682015614173235/755907254318006362/1266767532468076705) - DynOS pack for stars
+- [Control Stick Modifier](cst.lua) ([Old](marki.lua)) - Modifier for control stick
+- [Forwards Long Jump](flj.lua)<br>
 Walk into a slope and mash the A button while holding down the Z trigger<br>
 You may toggle the forwards long jump by typing /flj in the chat box
+- [Bouncy Ground Pound](Afunnigp.lua) - Check it out!!
+- [Cap Throw](Cap-Throw.lua) - A standalone version of the cap system from OMM but silly
+- [Input Display](inputview.lua) - See your inputs!
 
-## [Custom Ground Pound](Afunnigp.lua)
-Check it out!!
-
-## [Cap Throw](Cap-Throw.lua)
-A standalone version of the cap system from OMM but silly
-
-## Input Display Update UPDATE
-Input Display for your controller inputs
----
 
 # WIP mods with substance
-## [Clones](clones.lua)
-A demo of a clone system, pioneered by djoslin0
-
-## [Crumpler](crumpler.lua)
-Do unspeakable things to your player model
-
-## [Spyglass](spyglass.lua)
-Double-tap C-Up to look through your spyglass!
-
-## [OOB Shenaniganry](oobs)
-Drift into the void
-
-## [POV: Super Mario](marioirl.lua)
-A first person mod
-
-## [Uno](uno.lua)
-Currently a deck generator and display, gameplay will come later
-
-## [Wowozela](wowozela)
-An attempt at replicating its namesake from Garry's Mod
-
-## [Ninja Roy Moveset](jumpking.lua)
-A moveset based on the titular character from [Ninja Roy 7](https://scratch.mit.edu/projects/305344224), a sequel based on Jump King
-
-## [Wario Fucking Dies](wariodies.lua)
-An event sequence system disguised as a meme
-
-## [Death Stare](deathstare.lua)
-Look at things to kill them
-
-## [Cursors EX](cursorsEX.lua) ([old](cursors.lua))
-Display all players' cursors on screen
-
-## [3D World Player Grab](3dwgrab)
-An alternative take on a player grab mod, this time based on Super Mario 3D World's player grab, while allowing players to stack
-
-## [Bound.lua](Bound.lua)
-Invisible walls are marked by sparklies
-
-## [wip]
-
+- [Clones](clones.lua) - A demo of a clone system, pioneered by djoslin0
+- [Crumpler](crumpler.lua) - Do unspeakable things to your player model
+- [Spyglass](spyglass.lua) - Double-tap C-Up to look through your spyglass!
+- [OOB Shenaniganry](oobs) - Drift into the void
+- [POV: Super Mario](marioirl.lua) - A first person mod
+- [Uno](uno.lua) - Currently a deck generator and display, gameplay will come later
+- [Wowozela](wowozela) - An attempt at replicating its namesake from Garry's Mod
+- [Ninja Roy Moveset](jumpking.lua) - A moveset based on the titular character from [Ninja Roy 7](https://scratch.mit.edu/projects/305344224), a sequel based on Jump King
+- [Wario Fucking Dies](wariodies.lua) - An event sequence system disguised as a meme
+- [Death Stare](deathstare.lua) - Look at things to kill them
+- [Cursors EX](cursorsEX.lua) ([old](cursors.lua)) - Display all players' cursors on screen
+- [3D World Player Grab](3dwgrab) - An alternative take on a player grab mod, this time based on Super Mario 3D World's player grab, while allowing players to stack
+- [Bound.lua](Bound.lua) - Invisible walls are marked by sparklies
+- [Respawn](respawn.lua) - Respawns the player from the last entry point when killed 
+- [Super Kaizo Drownio Road (0 Star Edition)](drownio) - A port of the Roblox obby
+- [squashstretch.lua](squashstretch.lua) - Adds a fluid squash and stretch effect to players
+- [Ragdoll](ragdoll.lua) - Adds a fling-like action triggered in certain cases
+- [Teleport](tp.lua) - A teleport mod aiming to replicate a Minecraft-styled command experience (with selectors, overloading, etc.)
+- [A Button Challenge: Lag Edition](abclag.lua) - Exactly what the title says
+- [lag.lua](lag.lua) - Same here!
+- [Late Night Procrastinated Project](A-latenightprocrastinatedproject.lua) - A series of three visualizations created past a project's deadline
+- [soundtest.lua](soundtest.lua) - Lets you cycle through all available sounds
+- [effect-test](effect-test) - Showcase for a silhouette rendering trick abusing draw order and the Z buffer
 
 # Overview (as of 01/20/2026  10:48 PM)
 ```sh
