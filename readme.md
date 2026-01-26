@@ -9,19 +9,19 @@ TO-DO: add individual mod overviews
 - [OMM but silly](https://github.com/Mistyre9309/test-mod)
 
 # Releases
-- [Color Combiner](colorcombiner.lua) ([site](https://mods.sm64coopdx.com/mods/color-combiner.141/)|[Old](lightingpermod.lua))<br>
+- [Color Combiner](releases/colorcombiner.lua) ([site](https://mods.sm64coopdx.com/mods/color-combiner.141/)|[Old](lightingpermod.lua))<br>
 Allows multiple lighting mods to be used simultaneously<br>
 (You may need to remove incompatibility tags first)
-- [Old ex-coop Logo](ex-coop-theme) - Prints a guide to the chat detailing the process to activate the ex-coop theme easter egg 
-- [Click the Star](clickthestar.lua) - Click on stars to collect them
+- [Old ex-coop Logo](releases/ex-coop-theme) - Prints a guide to the chat detailing the process to activate the ex-coop theme easter egg 
+- [Click the Star](releases/clickthestar.lua) - Click on stars to collect them
 - [Carl's Jr. Chicken Stars](https://discord.com/channels/752682015614173235/755907254318006362/1266767532468076705) - DynOS pack for stars
-- [Control Stick Modifier](cst.lua) ([Old](marki.lua)) - Modifier for control stick
-- [Forwards Long Jump](flj.lua)<br>
+- [Control Stick Modifier](releases/cst.lua) ([Old](releases/marki.lua)) - Modifier for control stick
+- [Forwards Long Jump](releases/flj.lua)<br>
 Walk into a slope and mash the A button while holding down the Z trigger<br>
 You may toggle the forwards long jump by typing /flj in the chat box
-- [Bouncy Ground Pound](Afunnigp.lua) - Check it out!!
-- [Cap Throw](Cap-Throw.lua) - A standalone version of the cap system from OMM but silly
-- [Input Display](inputview.lua) - See your inputs!
+- [Bouncy Ground Pound](releases/Afunnigp.lua) - Check it out!!
+- [Cap Throw](releases/Cap-Throw.lua) - A standalone version of the cap system from OMM but silly
+- [Input Display](releases/inputview.lua) - See your inputs!
 
 
 # WIP mods with substance
