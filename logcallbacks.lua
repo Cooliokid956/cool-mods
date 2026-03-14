@@ -16,7 +16,7 @@ end
 
 local lastHookEventType
 local requestHooks
-hook_chat_command("queue", "hooks", function ()
+hook_chat_command("log-callbacks", "- Log callbacks for this frame", function ()
     requestHooks = 0
     return true
 end)
@@ -29,6 +29,7 @@ function _G.hook_event(hookEventType, func)
                 requestHooks = 1; print("CAPTURE START")
             elseif requestHooks == 1 then
                 requestHooks = nil; print("CAPTURE STOP")
+                djui_chat_message_create("Callbacks logged - check console")
             end
         end
 
