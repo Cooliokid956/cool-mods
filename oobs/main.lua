@@ -202,7 +202,6 @@ function bhv_floor_loop(o)
 	obj_set_angle(o, 0,0,0)
 	cur_obj_scale(1)
 	if not col or ~col then
-		djui_chat_message_create("no collision: regenerating")
 		col = load_static_object_collision()
 	end
 end
