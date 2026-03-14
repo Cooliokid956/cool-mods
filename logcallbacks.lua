@@ -21,9 +21,9 @@ hook_chat_command("queue", "hooks", function ()
     return true
 end)
 
-local og_hook_event = hook_event
+local hook_event = hook_event
 function _G.hook_event(hookEventType, func)
-    og_hook_event(hookEventType, function (...)
+    hook_event(hookEventType, function (...)
         if lastHookEventType == HOOK_UPDATE and hookEventType ~= HOOK_UPDATE then
             if requestHooks == 0 then
                 requestHooks = 1; print("CAPTURE START")
