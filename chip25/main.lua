@@ -130,7 +130,7 @@ cchip = chip.register(cchip)
 function N(x) return 440*2^(x/12) end
 c = 0
 v = 0
-ci = 1
+ci = 10
 hook_event(HOOK_MARIO_UPDATE, function (m)
     if not cchip or m.playerIndex ~= 0 then return end
     local capped = (m.flags & MARIO_CAP_ON_HEAD ~= 0)
@@ -140,6 +140,7 @@ hook_event(HOOK_MARIO_UPDATE, function (m)
     chan.amplitude = .06 * ((djui_hud_get_screen_height()-djui_hud_get_mouse_y())/djui_hud_get_screen_height())
     chan.duty = djui_hud_get_mouse_x()/djui_hud_get_screen_width()
     chan.frequency = N(c)
+    -- chan.wave.channel = (chan.wave.channel + 1) % 4
 
     --wowo
     chan.amplitude = .1*v * (capped and 1 or 8)

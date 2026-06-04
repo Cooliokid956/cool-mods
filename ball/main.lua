@@ -78,7 +78,7 @@ function ball(o)
             print(reflect.x .. ", " .. reflect.y .. ", " .. reflect.z .. " to " .. split.x .. ", " .. split.y .. ", " .. split.z)
             ]]
             vec3f_mul(reflect,vec3f_dist(pos,vel))
-            local perpendicular = vec3f_project(reflect, floor.normal)
+            local perpendicular = vec3f_project(reflect, reflect, floor.normal)
             local parallel = { x = reflect.x - perpendicular.x, y = reflect.y - perpendicular.y, z = reflect.z - perpendicular.z }
             if vec3f_dist(pos,perpendicular) > 20 then
                 audio_sample_play(boing, ray.hitPos,1)
