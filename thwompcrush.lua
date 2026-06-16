@@ -46,7 +46,7 @@ end
 --         boom(m.marioObj)
 --     end
 -- end)
-warp_to_level(LEVEL_WF, 1, 1)
+-- warp_to_level(LEVEL_WF, 1, 1)
 
 hook_event(HOOK_BEFORE_SET_MARIO_ACTION, function (m)
     if not m.floor then return end
