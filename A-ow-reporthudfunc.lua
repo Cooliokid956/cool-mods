@@ -1,5 +1,7 @@
 -- name: ! Trace HUD Functions
 
+local get_mouse, get_scroll = djui_hud_get_mouse_buttons_down, djui_hud_get_mouse_scroll_y
+
 local maxCalls = -1
 local numCalls = 0
 local reportAfter = 0
@@ -29,10 +31,11 @@ hook_event(HOOK_UPDATE, function ()
     print("calls: "..numCalls)
     numCalls = 0
 
-    if djui_hud_get_mouse_buttons_down() & M_MOUSE_BUTTON ~= 0 then
+    if get_mouse() & M_MOUSE_BUTTON ~= 0 then
         reportAfter = maxCalls
     end
-    local scroll = djui_hud_get_mouse_scroll_y()
+
+    local scroll = get_scroll()
     if scroll ~= 0 then
         maxCalls = math.max(-1, maxCalls + scroll) | 0
         djui_chat_message_create("max calls: ".. maxCalls)
