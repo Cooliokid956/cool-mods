@@ -9,8 +9,11 @@ local reportAfter = 0
 for name, func in pairs(_G) do
     name = tostring(name)
     if type(func) == "function" and name:find("djui_hud_") == 1 then
-        print("Found HUD function " .. name)
-        local count = not (name:find("_get_") or name:find("_set_") or name:find("_measure_") or name:find("_is_"))
+        -- print("Found HUD function " .. name)
+        local count = not (name:find("_get_") or name:find("_set_") or name:find("_measure_") or name:find("_is_") or name:find("_reset_") or name:find("_pos_"))
+        if count then
+            print("HUD function " .. name)
+        end
         _G[name] = function (...)
             if count then
                 if numCalls == maxCalls then return end
