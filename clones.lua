@@ -9,7 +9,7 @@
 -- local MAX_CLONES = 30*10
 -- local CLONE_SPACING = 1
 local MAX_CLONES = 30
-local CLONE_SPACING = 15 // 2
+local CLONE_SPACING = 1
 local MAX_CLONE_CACHE = MAX_CLONES * CLONE_SPACING + 1
 
 local sCloneTimestamp = {}
