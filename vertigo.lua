@@ -19,7 +19,7 @@ hook_event(HOOK_MARIO_UPDATE, function (m)
     vec3f_copy(l.pos, l.curPos)
 
     if not master or ~master then
-        if m.marioObj.hookRender ~= 0 then
+        if m.marioObj.hookRender == 0 then
             m.marioObj.hookRender = 1
         end
     end
